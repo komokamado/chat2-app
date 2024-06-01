@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="hack-mode">
+    <div class="container">
+        <h1 class="hack-title">Chat</h1>
+        <div id="chatBox" class="hack-chat"></div>
+        <form id="chatForm">
+            <div class="form-group">
+                <input type="text" id="message" class="hack-input" placeholder="Type your message here..." required>
+            </div>
+            <button type="submit" class="btn btn-hack">Send</button>
+        </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script> <!-- Thêm dòng này để load thư viện Socket.io -->
+    <script src="/script.js"></script>
+</body>
+</html>

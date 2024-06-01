@@ -1,0 +1,90 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.hack-form {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.hack-title {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #0f0;
+    background-color: #000;
+    color: #0f0;
+}
+
+.btn-hack {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #0f0;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-hack:hover {
+    background-color: #090;
+}
+
+.hack-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hack-link {
+    color: #0f0;
+    text-decoration: none;
+}
+
+.hack-link:hover {
+    text-decoration: underline;
+}
+
+.hack-chat {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.hack-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #0f0;
+    background-color: #000;
+    color: #0f0;
+}
+
+.hack-input:focus {
+    outline: none;
+    border-color: #090;
+}

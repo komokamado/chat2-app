@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="hack-mode">
+    <div class="container">
+        <div class="hack-form">
+            <h1 class="hack-title">Register</h1>
+            <form id="registerForm" method="POST" action="/register">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-hack">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
